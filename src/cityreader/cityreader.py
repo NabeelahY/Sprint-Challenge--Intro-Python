@@ -88,9 +88,6 @@ lon1 = float(user_place1.split(',')[1])
 lat2 = float(user_place2.split(',')[0])
 lon2 = float(user_place2.split(',')[1])
 
-print(user_place1)
-print(user_place2)
-
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
     # within will hold the cities that fall within the specified region
